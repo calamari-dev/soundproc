@@ -1,0 +1,14 @@
+services:
+  soundproc:
+    build: .
+    image: soundproc
+    volumes:
+      - type: bind
+        source: ./src
+        target: /home/anon/src
+      - type: volume
+        source: virtualenvs
+        target: /home/anon/.local/share/virtualenvs
+
+volumes:
+  virtualenvs:
