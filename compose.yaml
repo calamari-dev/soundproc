@@ -2,6 +2,7 @@ services:
   soundproc:
     build: .
     image: soundproc
+    user: anon
     volumes:
       - type: bind
         source: ./src

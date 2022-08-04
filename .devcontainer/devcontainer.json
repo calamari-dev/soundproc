@@ -2,7 +2,6 @@
   "name": "soundproc",
   "dockerComposeFile": ["../compose.yaml", "compose.yaml"],
   "service": "soundproc",
-  "remoteUser": "anon",
   "workspaceFolder": "/home/anon/src",
   "extensions": ["ms-python.python"],
   "settings": {
