@@ -8,6 +8,7 @@ numpy = "*"
 scipy = "*"
 matplotlib = "*"
 librosa = "*"
+sympy = "*"
 
 [dev-packages]
 black = "*"
